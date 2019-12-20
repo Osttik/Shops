@@ -34,7 +34,7 @@ namespace Shop
             services.AddSingleton<UserService>();
             //services.add
             //services.AddDbContext<Infrastructure.DataBase.Shop>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
-            services.AddSingleton<ProductService>(p);
+            //services.AddSingleton<ProductService>();
 
             services.AddSwaggerGen(c =>
             {
